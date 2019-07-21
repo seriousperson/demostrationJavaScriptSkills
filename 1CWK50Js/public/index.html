@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Dungeon Explorer</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script-->
+    <!--link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="DungeonClient.js"></script>
+</head>
+
+<body>
+    <br><br>
+    <div id="game">
+        <div id="btnctrls">
+            <input type="button" value="▲" id="upbtn" name="up">
+            <input type="button" value="▼" id="dwnbtn" name="down">
+            <input type="button" value="◀" id="leftbtn" name="left"> 
+            <input type="button" value="▶" id="rightbtn" name="right">
+        </div>
+        <canvas width="1800" height="900">
+            Your browser has no Canvas support!
+        </canvas>
+    </div>
+</body>
+
+</html>
